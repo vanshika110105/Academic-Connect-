@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.club-info {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.club-info h2 {
+    color: #333;
+}
+
+.club-details {
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+.club-description {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.gallery {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.gallery h2 {
+    color: #201c1c;
+    margin-bottom: 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.image-grid img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

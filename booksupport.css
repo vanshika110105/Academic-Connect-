@@ -1,0 +1,95 @@
+html body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; /* Remove padding to cover the full viewport */
+    background-color: #f0f0f0; /* Change the background color here */
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.donate-btn {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 40px;
+    padding: 10px 40px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.donate-btn:hover {
+    background-color: #0056b3;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.campus-col {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.campus-col:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.campus-col img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.campus-col:hover .layer {
+    opacity: 1;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+}
